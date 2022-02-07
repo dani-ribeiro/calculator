@@ -64,10 +64,15 @@ button {
     border-style: none;
     font-size: 32px;
     font-weight: 400;
+    transition: 0.2s all;
 }
 
 .dark-grey-btn {
     background-color: #505050;
+}
+
+.dark-grey-btn:active {
+    background-color: #E0E0E0;
 }
 
 .light-grey-btn {
@@ -75,6 +80,14 @@ button {
     color: #1C1C1C;
 }
 
+.light-grey-btn:active {
+    background-color: #F7F7F7;
+}
+
 .orange-btn {
     background-color: #FF9500;
+}
+
+.orange-btn:active {
+    background-color: #FCD092;
 }

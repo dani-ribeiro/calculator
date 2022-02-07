@@ -54,10 +54,11 @@ function clear(){
 }
 
 function clickNumber(){
+    screenText.textContent = this.innerHTML;
     screenArr.push(this.innerHTML);
 }
 
 function evaluate(){
     screenArr.push(this.innerHTML);
-    
+
 }
