@@ -17,7 +17,7 @@
 
 .calculator-container {
     height: 550px;
-    width: 450px;
+    width: 370px;
     border-radius: 35px;
     box-shadow: 8px 5px 8px 5px #1C1C1C;
     background-color: #1C1C1C;
@@ -34,7 +34,7 @@
 }
 
 #screenText {
-    padding-right: 23px;
+    padding-right: 20px;
     font-size: 88px;
 }
 
@@ -45,16 +45,22 @@
     grid-template-columns: repeat(4, 1fr);
     column-gap: 10px;
     row-gap: 10px;
+    margin: auto;
 }
 
 #zero {
     grid-column: span 2;
     text-align: left;
-    padding-left: 42px;
+    padding-left: 29px;
+    border-radius: 200px;
+    height: 75px;
+    width: 100%;
 }
 
 button {
-    border-radius: 200px;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
     border-style: none;
     font-size: 32px;
     font-weight: 400;
