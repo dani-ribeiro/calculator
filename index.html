@@ -18,32 +18,31 @@
     <main class="browser-container">
         <div class="calculator-container">
             <div class="screen-container">
-                <h1 id="screenText">99999</h1>
+                <h1 id="screenText">0</h1>
             </div>
             <div id="keys">
-                <button type="button" class="light-grey-btn" id="AC">AC</button>
-                <button type="button" class="light-grey-btn" id="plus/minus">+/-</button>
-                <button type="button" class="light-grey-btn" id="percent">%</button>
-                <button type="button" class="orange-btn" id="divide">/</button>
+                <button type="button" class="light-grey-btn symbol" id="AC">AC</button>
+                <button type="button" class="orange-btn symbol operator" id="power">X<sup>y</sup></button>
+                <button type="button" class="orange-btn symbol operator" id="divide" disabled>/</button>
 
-                <button type="button" class="dark-grey-btn" id="seven">7</button>
-                <button type="button" class="dark-grey-btn" id="eight">8</button>
-                <button type="button" class="dark-grey-btn" id="nine">9</button>
-                <button type="button" class="orange-btn" id="X">X</button>
+                <button type="button" class="dark-grey-btn symbol number" id="num7">7</button>
+                <button type="button" class="dark-grey-btn symbol number" id="num8">8</button>
+                <button type="button" class="dark-grey-btn symbol number" id="num9">9</button>
+                <button type="button" class="orange-btn symbol operator" id="multiply" disabled>X</button>
 
-                <button type="button" class="dark-grey-btn" id="four">4</button>
-                <button type="button" class="dark-grey-btn" id="five">5</button>
-                <button type="button" class="dark-grey-btn" id="six">6</button>
-                <button type="button" class="orange-btn" id="minus">-</button>
+                <button type="button" class="dark-grey-btn symbol number" id="num4">4</button>
+                <button type="button" class="dark-grey-btn symbol number" id="num5">5</button>
+                <button type="button" class="dark-grey-btn symbol number" id="num6">6</button>
+                <button type="button" class="orange-btn symbol operator" id="minus" disabled>-</button>
 
-                <button type="button" class="dark-grey-btn" id="one">1</button>
-                <button type="button" class="dark-grey-btn" id="two">2</button>
-                <button type="button" class="dark-grey-btn" id="three">3</button>
-                <button type="button" class="orange-btn" id="plus">+</button>
+                <button type="button" class="dark-grey-btn symbol number" id="num1">1</button>
+                <button type="button" class="dark-grey-btn symbol number" id="num2">2</button>
+                <button type="button" class="dark-grey-btn symbol number" id="num3">3</button>
+                <button type="button" class="orange-btn symbol operator" id="plus" disabled>+</button>
 
-                <button type="button" class="dark-grey-btn" id="zero">0</button>
-                <button type="button" class="dark-grey-btn" id="point">.</button>
-                <button type="button" class="orange-btn" id="equals">=</button>
+                <button type="button" class="dark-grey-btn symbol number" id="num0">0</button>
+                <button type="button" class="dark-grey-btn symbol" id="point">.</button>
+                <button type="button" class="orange-btn symbol" id="equals">=</button>
             </div>
         </div>
     </main>
