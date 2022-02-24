@@ -1,6 +1,4 @@
-# calculator
-
-Calculator App!  
+# Calculator App!
 
 Note:
 - Keyboard controls for addition, multiplication, and exponentiation (+, *, ^) only work with a numberpad.
